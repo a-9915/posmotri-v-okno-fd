@@ -175,6 +175,10 @@ html {
   width: 225px;
 }
 
+.search-form__textfield {
+  cursor: text;
+}
+
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -195,6 +199,8 @@ html {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
   background-color: #fff;
+  background-clip: content-box;
+  padding: 3px;
 }
 
 .button {
@@ -314,5 +320,3 @@ html {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
 }
-
-
