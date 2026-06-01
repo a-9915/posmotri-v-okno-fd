@@ -86,7 +86,7 @@ html {
 
 .content__list-container {
   height: 298px;
-  width: 100%;
+  width: 399px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,6 @@ html {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  margin-left: 16px;
   overflow: hidden;
 }
 
@@ -136,7 +135,6 @@ html {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: 5px;
 }
 
 .search-form__label {
@@ -173,10 +171,7 @@ html {
   font-family: inherit;
   font-size: 18px;
   width: 225px;
-}
-
-.search-form__textfield {
-  cursor: text;
+  cursor:text ;
 }
 
 .search-form__textfield::placeholder {
@@ -275,7 +270,7 @@ html {
   font-family: "Oswald", "Fira Sans Condensed", sans-serif; 
   font-size: 75px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: .93;
   text-transform: uppercase;
 }
 
@@ -288,7 +283,6 @@ html {
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 6px;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
